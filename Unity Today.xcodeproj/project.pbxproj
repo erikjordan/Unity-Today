@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0314546F195288E3006A022D /* SermonListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0314546E195288E3006A022D /* SermonListController.m */; };
+		03978299193436C00044B94A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03978298193436C00044B94A /* Foundation.framework */; };
+		0397829B193436C00044B94A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0397829A193436C00044B94A /* CoreGraphics.framework */; };
+		0397829D193436C00044B94A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0397829C193436C00044B94A /* UIKit.framework */; };
+		039782A3193436C00044B94A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 039782A1193436C00044B94A /* InfoPlist.strings */; };
+		039782A5193436C00044B94A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 039782A4193436C00044B94A /* main.m */; };
+		039782A9193436C00044B94A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 039782A8193436C00044B94A /* AppDelegate.m */; };
+		039782AC193436C00044B94A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 039782AA193436C00044B94A /* Main.storyboard */; };
+		039782AF193436C00044B94A /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 039782AE193436C00044B94A /* MasterViewController.m */; };
+		039782B2193436C00044B94A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 039782B1193436C00044B94A /* DetailViewController.m */; };
+		039782B4193436C00044B94A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 039782B3193436C00044B94A /* Images.xcassets */; };
+		039782BB193436C00044B94A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039782BA193436C00044B94A /* XCTest.framework */; };
+		039782BC193436C00044B94A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03978298193436C00044B94A /* Foundation.framework */; };
+		039782BD193436C00044B94A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0397829C193436C00044B94A /* UIKit.framework */; };
+		039782C5193436C00044B94A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 039782C3193436C00044B94A /* InfoPlist.strings */; };
+		039782C7193436C00044B94A /* Unity_TodayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 039782C6193436C00044B94A /* Unity_TodayTests.m */; };
+		3C2D91EDA4574EAB8CB36827 /* libPods-Unity Today.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FF300627A24AC49CD707FA /* libPods-Unity Today.a */; };
+		7298281C195A551800506672 /* GivingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7298281A195A551800506672 /* GivingViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		039782BE193436C00044B94A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0397828D193436C00044B94A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03978294193436C00044B94A;
+			remoteInfo = "Unity Today";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0314546D195288E3006A022D /* SermonListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SermonListController.h; sourceTree = "<group>"; };
+		0314546E195288E3006A022D /* SermonListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SermonListController.m; sourceTree = "<group>"; };
+		03978295193436C00044B94A /* Unity Today.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unity Today.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03978298193436C00044B94A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0397829A193436C00044B94A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0397829C193436C00044B94A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		039782A0193436C00044B94A /* Unity Today-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Unity Today-Info.plist"; sourceTree = "<group>"; };
+		039782A2193436C00044B94A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		039782A4193436C00044B94A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		039782A6193436C00044B94A /* Unity Today-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Unity Today-Prefix.pch"; sourceTree = "<group>"; };
+		039782A7193436C00044B94A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		039782A8193436C00044B94A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		039782AB193436C00044B94A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		039782AD193436C00044B94A /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		039782AE193436C00044B94A /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		039782B0193436C00044B94A /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		039782B1193436C00044B94A /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		039782B3193436C00044B94A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		039782B9193436C00044B94A /* Unity TodayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unity TodayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		039782BA193436C00044B94A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		039782C2193436C00044B94A /* Unity TodayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Unity TodayTests-Info.plist"; sourceTree = "<group>"; };
+		039782C4193436C00044B94A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		039782C6193436C00044B94A /* Unity_TodayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Unity_TodayTests.m; sourceTree = "<group>"; };
+		1555F7D96D14438DBB4DB70C /* Pods-Unity Today.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unity Today.xcconfig"; path = "Pods/Pods-Unity Today.xcconfig"; sourceTree = "<group>"; };
+		34FF300627A24AC49CD707FA /* libPods-Unity Today.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Unity Today.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7298281A195A551800506672 /* GivingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GivingViewController.m; sourceTree = "<group>"; };
+		7298281B195A551800506672 /* GivingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GivingViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03978292193436C00044B94A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0397829B193436C00044B94A /* CoreGraphics.framework in Frameworks */,
+				0397829D193436C00044B94A /* UIKit.framework in Frameworks */,
+				03978299193436C00044B94A /* Foundation.framework in Frameworks */,
+				3C2D91EDA4574EAB8CB36827 /* libPods-Unity Today.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		039782B6193436C00044B94A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				039782BB193436C00044B94A /* XCTest.framework in Frameworks */,
+				039782BD193436C00044B94A /* UIKit.framework in Frameworks */,
+				039782BC193436C00044B94A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0397828C193436C00044B94A = {
+			isa = PBXGroup;
+			children = (
+				0397829E193436C00044B94A /* Unity Today */,
+				039782C0193436C00044B94A /* Unity TodayTests */,
+				03978297193436C00044B94A /* Frameworks */,
+				03978296193436C00044B94A /* Products */,
+				1555F7D96D14438DBB4DB70C /* Pods-Unity Today.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		03978296193436C00044B94A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03978295193436C00044B94A /* Unity Today.app */,
+				039782B9193436C00044B94A /* Unity TodayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03978297193436C00044B94A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03978298193436C00044B94A /* Foundation.framework */,
+				0397829A193436C00044B94A /* CoreGraphics.framework */,
+				0397829C193436C00044B94A /* UIKit.framework */,
+				039782BA193436C00044B94A /* XCTest.framework */,
+				34FF300627A24AC49CD707FA /* libPods-Unity Today.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0397829E193436C00044B94A /* Unity Today */ = {
+			isa = PBXGroup;
+			children = (
+				039782A7193436C00044B94A /* AppDelegate.h */,
+				039782A8193436C00044B94A /* AppDelegate.m */,
+				039782AA193436C00044B94A /* Main.storyboard */,
+				7298281A195A551800506672 /* GivingViewController.m */,
+				7298281B195A551800506672 /* GivingViewController.h */,
+				039782AD193436C00044B94A /* MasterViewController.h */,
+				039782AE193436C00044B94A /* MasterViewController.m */,
+				039782B0193436C00044B94A /* DetailViewController.h */,
+				039782B1193436C00044B94A /* DetailViewController.m */,
+				0314546D195288E3006A022D /* SermonListController.h */,
+				0314546E195288E3006A022D /* SermonListController.m */,
+				039782B3193436C00044B94A /* Images.xcassets */,
+				0397829F193436C00044B94A /* Supporting Files */,
+			);
+			path = "Unity Today";
+			sourceTree = "<group>";
+		};
+		0397829F193436C00044B94A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				039782A0193436C00044B94A /* Unity Today-Info.plist */,
+				039782A1193436C00044B94A /* InfoPlist.strings */,
+				039782A4193436C00044B94A /* main.m */,
+				039782A6193436C00044B94A /* Unity Today-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		039782C0193436C00044B94A /* Unity TodayTests */ = {
+			isa = PBXGroup;
+			children = (
+				039782C6193436C00044B94A /* Unity_TodayTests.m */,
+				039782C1193436C00044B94A /* Supporting Files */,
+			);
+			path = "Unity TodayTests";
+			sourceTree = "<group>";
+		};
+		039782C1193436C00044B94A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				039782C2193436C00044B94A /* Unity TodayTests-Info.plist */,
+				039782C3193436C00044B94A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03978294193436C00044B94A /* Unity Today */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 039782CA193436C00044B94A /* Build configuration list for PBXNativeTarget "Unity Today" */;
+			buildPhases = (
+				10D22ACD56F14BF189BC5E06 /* Check Pods Manifest.lock */,
+				03978291193436C00044B94A /* Sources */,
+				03978292193436C00044B94A /* Frameworks */,
+				03978293193436C00044B94A /* Resources */,
+				BB7626103E4E40E5B795D391 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Unity Today";
+			productName = "Unity Today";
+			productReference = 03978295193436C00044B94A /* Unity Today.app */;
+			productType = "com.apple.product-type.application";
+		};
+		039782B8193436C00044B94A /* Unity TodayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 039782CD193436C00044B94A /* Build configuration list for PBXNativeTarget "Unity TodayTests" */;
+			buildPhases = (
+				039782B5193436C00044B94A /* Sources */,
+				039782B6193436C00044B94A /* Frameworks */,
+				039782B7193436C00044B94A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				039782BF193436C00044B94A /* PBXTargetDependency */,
+			);
+			name = "Unity TodayTests";
+			productName = "Unity TodayTests";
+			productReference = 039782B9193436C00044B94A /* Unity TodayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0397828D193436C00044B94A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Erik Jordan";
+				TargetAttributes = {
+					03978294193436C00044B94A = {
+						DevelopmentTeam = UXCXL4U5R3;
+					};
+					039782B8193436C00044B94A = {
+						TestTargetID = 03978294193436C00044B94A;
+					};
+				};
+			};
+			buildConfigurationList = 03978290193436C00044B94A /* Build configuration list for PBXProject "Unity Today" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0397828C193436C00044B94A;
+			productRefGroup = 03978296193436C00044B94A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03978294193436C00044B94A /* Unity Today */,
+				039782B8193436C00044B94A /* Unity TodayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03978293193436C00044B94A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				039782B4193436C00044B94A /* Images.xcassets in Resources */,
+				039782A3193436C00044B94A /* InfoPlist.strings in Resources */,
+				039782AC193436C00044B94A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		039782B7193436C00044B94A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				039782C5193436C00044B94A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10D22ACD56F14BF189BC5E06 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BB7626103E4E40E5B795D391 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Unity Today-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03978291193436C00044B94A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0314546F195288E3006A022D /* SermonListController.m in Sources */,
+				039782A9193436C00044B94A /* AppDelegate.m in Sources */,
+				7298281C195A551800506672 /* GivingViewController.m in Sources */,
+				039782AF193436C00044B94A /* MasterViewController.m in Sources */,
+				039782A5193436C00044B94A /* main.m in Sources */,
+				039782B2193436C00044B94A /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		039782B5193436C00044B94A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				039782C7193436C00044B94A /* Unity_TodayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		039782BF193436C00044B94A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03978294193436C00044B94A /* Unity Today */;
+			targetProxy = 039782BE193436C00044B94A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		039782A1193436C00044B94A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				039782A2193436C00044B94A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		039782AA193436C00044B94A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				039782AB193436C00044B94A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		039782C3193436C00044B94A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				039782C4193436C00044B94A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		039782C8193436C00044B94A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		039782C9193436C00044B94A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		039782CB193436C00044B94A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1555F7D96D14438DBB4DB70C /* Pods-Unity Today.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Unity Today/Unity Today-Prefix.pch";
+				INFOPLIST_FILE = "Unity Today/Unity Today-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		039782CC193436C00044B94A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1555F7D96D14438DBB4DB70C /* Pods-Unity Today.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Unity Today/Unity Today-Prefix.pch";
+				INFOPLIST_FILE = "Unity Today/Unity Today-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		039782CE193436C00044B94A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Unity Today.app/Unity Today";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Unity Today/Unity Today-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Unity TodayTests/Unity TodayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		039782CF193436C00044B94A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Unity Today.app/Unity Today";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Unity Today/Unity Today-Prefix.pch";
+				INFOPLIST_FILE = "Unity TodayTests/Unity TodayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03978290193436C00044B94A /* Build configuration list for PBXProject "Unity Today" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				039782C8193436C00044B94A /* Debug */,
+				039782C9193436C00044B94A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		039782CA193436C00044B94A /* Build configuration list for PBXNativeTarget "Unity Today" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				039782CB193436C00044B94A /* Debug */,
+				039782CC193436C00044B94A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		039782CD193436C00044B94A /* Build configuration list for PBXNativeTarget "Unity TodayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				039782CE193436C00044B94A /* Debug */,
+				039782CF193436C00044B94A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0397828D193436C00044B94A /* Project object */;
+}
