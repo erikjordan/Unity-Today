@@ -92,8 +92,8 @@
 		030007A11AD1FFB600A05F79 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				7298281A195A551800506672 /* GivingViewController.m */,
 				7298281B195A551800506672 /* GivingViewController.h */,
+				7298281A195A551800506672 /* GivingViewController.m */,
 				039782AD193436C00044B94A /* MasterViewController.h */,
 				039782AE193436C00044B94A /* MasterViewController.m */,
 				039782B0193436C00044B94A /* DetailViewController.h */,

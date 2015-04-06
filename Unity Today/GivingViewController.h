@@ -8,6 +8,6 @@
 
 #import "QuickDialogController.h"
 
-@interface GivingViewController : QuickDialogController
+@interface GivingViewController : UITableViewController
 
 @end
