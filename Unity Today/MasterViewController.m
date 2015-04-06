@@ -29,7 +29,7 @@
 {
     if ([[segue identifier] isEqualToString:@"showOrderOfWorship"])
     {
-        DetailViewController* controller = segue.destinationViewController;
+        DetailViewController* controller = ((UINavigationController*)segue.destinationViewController).viewControllers[0];
         controller.detailItem = [NSURL URLWithString:@"https://sites.google.com/a/erik.jordan.name/simple/order-of-worship"];
     }
 }

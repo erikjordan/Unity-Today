@@ -51,4 +51,9 @@
 	[self configureView];
 }
 
+- (IBAction)didPressClose:(id)sender
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
 @end

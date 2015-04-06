@@ -56,7 +56,7 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <connections>
-                                            <segue destination="Ah7-4n-0Wa" kind="push" identifier="showOrderOfWorship" id="ekz-7t-9Rn"/>
+                                            <segue destination="xMf-zp-tP3" kind="modal" identifier="showOrderOfWorship" id="tW5-yv-7uG"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -270,6 +270,22 @@
             </objects>
             <point key="canvasLocation" x="1043" y="-324"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="TxF-Nm-It9">
+            <objects>
+                <navigationController id="xMf-zp-tP3" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Gya-Vp-Ruz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Ah7-4n-0Wa" kind="relationship" relationship="rootViewController" id="znS-Vd-eQa"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eFe-1j-Qqs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1043" y="376"/>
+        </scene>
         <!--Detail-->
         <scene sceneID="Cn3-H9-jdl">
             <objects>
@@ -283,11 +299,18 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Loading..." id="cra-N8-TIN"/>
+                    <navigationItem key="navigationItem" title="Loading..." id="cra-N8-TIN">
+                        <barButtonItem key="rightBarButtonItem" title="close" id="bBx-ns-Wfv">
+                            <connections>
+                                <action selector="didPressClose:" destination="Ah7-4n-0Wa" id="0Gy-q8-E4e"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lrm-kH-fPn" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1043" y="319"/>
+            <point key="canvasLocation" x="1471" y="376"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
