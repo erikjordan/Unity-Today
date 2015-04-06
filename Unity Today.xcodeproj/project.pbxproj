@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0314546F195288E3006A022D /* SermonListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0314546E195288E3006A022D /* SermonListController.m */; };
 		03978299193436C00044B94A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03978298193436C00044B94A /* Foundation.framework */; };
 		0397829B193436C00044B94A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0397829A193436C00044B94A /* CoreGraphics.framework */; };
 		0397829D193436C00044B94A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0397829C193436C00044B94A /* UIKit.framework */; };
@@ -38,8 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0314546D195288E3006A022D /* SermonListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SermonListController.h; sourceTree = "<group>"; };
-		0314546E195288E3006A022D /* SermonListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SermonListController.m; sourceTree = "<group>"; };
 		03978295193436C00044B94A /* Unity Today.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unity Today.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03978298193436C00044B94A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0397829A193436C00044B94A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -92,6 +89,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		030007A11AD1FFB600A05F79 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7298281A195A551800506672 /* GivingViewController.m */,
+				7298281B195A551800506672 /* GivingViewController.h */,
+				039782AD193436C00044B94A /* MasterViewController.h */,
+				039782AE193436C00044B94A /* MasterViewController.m */,
+				039782B0193436C00044B94A /* DetailViewController.h */,
+				039782B1193436C00044B94A /* DetailViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		0397828C193436C00044B94A = {
 			isa = PBXGroup;
 			children = (
@@ -129,15 +139,8 @@
 			children = (
 				039782A7193436C00044B94A /* AppDelegate.h */,
 				039782A8193436C00044B94A /* AppDelegate.m */,
+				030007A11AD1FFB600A05F79 /* Controllers */,
 				039782AA193436C00044B94A /* Main.storyboard */,
-				7298281A195A551800506672 /* GivingViewController.m */,
-				7298281B195A551800506672 /* GivingViewController.h */,
-				039782AD193436C00044B94A /* MasterViewController.h */,
-				039782AE193436C00044B94A /* MasterViewController.m */,
-				039782B0193436C00044B94A /* DetailViewController.h */,
-				039782B1193436C00044B94A /* DetailViewController.m */,
-				0314546D195288E3006A022D /* SermonListController.h */,
-				0314546E195288E3006A022D /* SermonListController.m */,
 				039782B3193436C00044B94A /* Images.xcassets */,
 				0397829F193436C00044B94A /* Supporting Files */,
 			);
@@ -308,7 +311,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0314546F195288E3006A022D /* SermonListController.m in Sources */,
 				039782A9193436C00044B94A /* AppDelegate.m in Sources */,
 				7298281C195A551800506672 /* GivingViewController.m in Sources */,
 				039782AF193436C00044B94A /* MasterViewController.m in Sources */,

@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+
 #import "PBWebViewController.h"
 
 @interface DetailViewController : PBWebViewController
 
-@property (strong, nonatomic) id detailItem;
+@property (strong, nonatomic) NSURL* detailItem;
 
 @end

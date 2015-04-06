@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "QuickDialogController.h"
 
-@interface MasterViewController : QuickDialogController
+@interface MasterViewController : UITableViewController
 
 @end
