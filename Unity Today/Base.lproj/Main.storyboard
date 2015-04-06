@@ -105,7 +105,7 @@
         <scene sceneID="zgK-aJ-Pca">
             <objects>
                 <tableViewController id="mNU-jy-a3f" customClass="GivingViewController" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="jlj-Kx-mnb">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="jlj-Kx-mnb">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -174,10 +174,10 @@
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Amount" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="z8e-kz-pgh">
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Amount" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="z8e-kz-pgh">
                                                     <rect key="frame" x="20" y="8" width="292" height="27"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits"/>
+                                                    <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
                                                 </textField>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bjG-CE-jyA">
                                                     <rect key="frame" x="8" y="8" width="8" height="27"/>
@@ -261,6 +261,7 @@
                     <navigationItem key="navigationItem" title="Give" id="rsZ-Cz-oHl"/>
                     <connections>
                         <outlet property="amountSegmentedControl" destination="YGj-Br-Zj0" id="Pne-tx-Ue8"/>
+                        <outlet property="amountTextField" destination="z8e-kz-pgh" id="yRr-9b-QoW"/>
                         <outlet property="cardEntryView" destination="f3V-cW-Pa4" id="v5S-PE-cql"/>
                         <outlet property="donateButton" destination="tUK-bM-bj7" id="lpc-0m-Vvq"/>
                     </connections>

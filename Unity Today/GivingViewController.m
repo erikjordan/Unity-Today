@@ -15,6 +15,7 @@
 @property (weak, nonatomic) IBOutlet UISegmentedControl *amountSegmentedControl;
 @property (weak, nonatomic) IBOutlet PTKView *cardEntryView;
 @property (weak, nonatomic) IBOutlet UIButton *donateButton;
+@property (weak, nonatomic) IBOutlet UITextField *amountTextField;
 
 @end
 
@@ -30,7 +31,24 @@
 
 - (IBAction)didPressDonateButton:(id)sender
 {
-    [self.navigationController popToRootViewControllerAnimated:YES];
+    [self confirmDonation];
+}
+
+- (void)confirmDonation
+{
+    UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Donation Sent"
+            message:@"Thank you for your generous donation!"
+            preferredStyle:UIAlertControllerStyleAlert];
+    
+    [alert addAction:[UIAlertAction actionWithTitle:@"OK"
+            style:UIAlertActionStyleDefault
+            handler:
+                ^(UIAlertAction *action)
+                {
+                    [self.navigationController popToRootViewControllerAnimated:YES];
+                }]];
+    
+    [self presentViewController:alert animated:YES completion:nil];
 }
 
 - (IBAction)didChangeAmount:(id)sender
@@ -54,10 +72,20 @@
     return 1;
 }
 
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+    [self.amountTextField resignFirstResponder];
+}
+
 #pragma mark - PTKViewDelegate
 
 - (void)paymentView:(PTKView *)paymentView withCard:(PTKCard *)card isValid:(BOOL)valid
 {
+    if (valid)
+    {
+        [self.cardEntryView resignFirstResponder];
+    }
+    
     self.donateButton.enabled = valid;
 }
 
