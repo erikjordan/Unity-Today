@@ -4,6 +4,7 @@
 target "Unity Today" do
 
 pod 'PBWebViewController'
+pod 'PaymentKit'
 
 end
 

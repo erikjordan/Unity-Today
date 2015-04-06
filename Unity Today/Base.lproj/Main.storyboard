@@ -207,6 +207,20 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="j2N-gX-DvY" id="wbE-LT-Ptf">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f3V-cW-Pa4" customClass="PTKView">
+                                                    <rect key="frame" x="22" y="0.0" width="276" height="43"/>
+                                                    <color key="backgroundColor" red="1" green="0.99427918530000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="276" id="JEJ-4d-beU"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="f3V-cW-Pa4" firstAttribute="top" secondItem="wbE-LT-Ptf" secondAttribute="top" id="2W9-or-nWR"/>
+                                                <constraint firstAttribute="bottom" secondItem="f3V-cW-Pa4" secondAttribute="bottom" id="HC3-c4-Cc8"/>
+                                                <constraint firstAttribute="centerX" secondItem="f3V-cW-Pa4" secondAttribute="centerX" id="PKP-wu-3M8"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
@@ -247,11 +261,13 @@
                     <navigationItem key="navigationItem" title="Give" id="rsZ-Cz-oHl"/>
                     <connections>
                         <outlet property="amountSegmentedControl" destination="YGj-Br-Zj0" id="Pne-tx-Ue8"/>
+                        <outlet property="cardEntryView" destination="f3V-cW-Pa4" id="v5S-PE-cql"/>
+                        <outlet property="donateButton" destination="tUK-bM-bj7" id="lpc-0m-Vvq"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R3G-hr-Oa4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1043" y="-320"/>
+            <point key="canvasLocation" x="1043" y="-324"/>
         </scene>
         <!--Detail-->
         <scene sceneID="Cn3-H9-jdl">

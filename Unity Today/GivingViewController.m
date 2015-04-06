@@ -6,11 +6,15 @@
 //  Copyright (c) 2014 Erik Jordan. All rights reserved.
 //
 
+#import <PTKView.h>
+
 #import "GivingViewController.h"
 
-@interface GivingViewController ()
+@interface GivingViewController () <PTKViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UISegmentedControl *amountSegmentedControl;
+@property (weak, nonatomic) IBOutlet PTKView *cardEntryView;
+@property (weak, nonatomic) IBOutlet UIButton *donateButton;
 
 @end
 
@@ -19,6 +23,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    self.donateButton.enabled = NO;
+    self.cardEntryView.delegate = self;
 }
 
 - (IBAction)didPressDonateButton:(id)sender
@@ -45,6 +52,13 @@
     }
     
     return 1;
+}
+
+#pragma mark - PTKViewDelegate
+
+- (void)paymentView:(PTKView *)paymentView withCard:(PTKCard *)card isValid:(BOOL)valid
+{
+    self.donateButton.enabled = valid;
 }
 
 @end

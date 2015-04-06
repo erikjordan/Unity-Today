@@ -1,10 +1,13 @@
 PODS:
+  - PaymentKit (1.1.1)
   - PBWebViewController (0.2)
 
 DEPENDENCIES:
+  - PaymentKit
   - PBWebViewController
 
 SPEC CHECKSUMS:
+  PaymentKit: 323c25233af5060880daa0c31366d4b688c34487
   PBWebViewController: 36fe0b78e098e1c281adf8a41bdbaa8507429d14
 
 COCOAPODS: 0.35.0
