@@ -1,15 +1,10 @@
 PODS:
   - PBWebViewController (0.2)
-  - QuickDialog (1.0):
-    - QuickDialog/Core
-  - QuickDialog/Core (1.0)
 
 DEPENDENCIES:
   - PBWebViewController
-  - QuickDialog
 
 SPEC CHECKSUMS:
-  PBWebViewController: 4ce33129c0f0adfce9cec105be4d48c7c9b70026
-  QuickDialog: 1f1df7b87d608bcbb3919f4ec809bd7d7ae50101
+  PBWebViewController: 36fe0b78e098e1c281adf8a41bdbaa8507429d14
 
-COCOAPODS: 0.33.1
+COCOAPODS: 0.35.0

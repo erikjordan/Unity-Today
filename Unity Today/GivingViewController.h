@@ -6,8 +6,6 @@
 //  Copyright (c) 2014 Erik Jordan. All rights reserved.
 //
 
-#import "QuickDialogController.h"
-
 @interface GivingViewController : UITableViewController
 
 @end

@@ -1,541 +1,1201 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		03978299193436C00044B94A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03978298193436C00044B94A /* Foundation.framework */; };
-		0397829B193436C00044B94A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0397829A193436C00044B94A /* CoreGraphics.framework */; };
-		0397829D193436C00044B94A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0397829C193436C00044B94A /* UIKit.framework */; };
-		039782A3193436C00044B94A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 039782A1193436C00044B94A /* InfoPlist.strings */; };
-		039782A5193436C00044B94A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 039782A4193436C00044B94A /* main.m */; };
-		039782A9193436C00044B94A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 039782A8193436C00044B94A /* AppDelegate.m */; };
-		039782AC193436C00044B94A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 039782AA193436C00044B94A /* Main.storyboard */; };
-		039782AF193436C00044B94A /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 039782AE193436C00044B94A /* MasterViewController.m */; };
-		039782B2193436C00044B94A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 039782B1193436C00044B94A /* DetailViewController.m */; };
-		039782B4193436C00044B94A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 039782B3193436C00044B94A /* Images.xcassets */; };
-		039782BB193436C00044B94A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039782BA193436C00044B94A /* XCTest.framework */; };
-		039782BC193436C00044B94A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03978298193436C00044B94A /* Foundation.framework */; };
-		039782BD193436C00044B94A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0397829C193436C00044B94A /* UIKit.framework */; };
-		039782C5193436C00044B94A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 039782C3193436C00044B94A /* InfoPlist.strings */; };
-		039782C7193436C00044B94A /* Unity_TodayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 039782C6193436C00044B94A /* Unity_TodayTests.m */; };
-		3C2D91EDA4574EAB8CB36827 /* libPods-Unity Today.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FF300627A24AC49CD707FA /* libPods-Unity Today.a */; };
-		7298281C195A551800506672 /* GivingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7298281A195A551800506672 /* GivingViewController.m */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		039782BE193436C00044B94A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0397828D193436C00044B94A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 03978294193436C00044B94A;
-			remoteInfo = "Unity Today";
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		03978295193436C00044B94A /* Unity Today.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unity Today.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		03978298193436C00044B94A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		0397829A193436C00044B94A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		0397829C193436C00044B94A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		039782A0193436C00044B94A /* Unity Today-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Unity Today-Info.plist"; sourceTree = "<group>"; };
-		039782A2193436C00044B94A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		039782A4193436C00044B94A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		039782A6193436C00044B94A /* Unity Today-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Unity Today-Prefix.pch"; sourceTree = "<group>"; };
-		039782A7193436C00044B94A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		039782A8193436C00044B94A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		039782AB193436C00044B94A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		039782AD193436C00044B94A /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		039782AE193436C00044B94A /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		039782B0193436C00044B94A /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		039782B1193436C00044B94A /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		039782B3193436C00044B94A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		039782B9193436C00044B94A /* Unity TodayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unity TodayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		039782BA193436C00044B94A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		039782C2193436C00044B94A /* Unity TodayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Unity TodayTests-Info.plist"; sourceTree = "<group>"; };
-		039782C4193436C00044B94A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		039782C6193436C00044B94A /* Unity_TodayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Unity_TodayTests.m; sourceTree = "<group>"; };
-		1555F7D96D14438DBB4DB70C /* Pods-Unity Today.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unity Today.xcconfig"; path = "Pods/Pods-Unity Today.xcconfig"; sourceTree = "<group>"; };
-		34FF300627A24AC49CD707FA /* libPods-Unity Today.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Unity Today.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7298281A195A551800506672 /* GivingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GivingViewController.m; sourceTree = "<group>"; };
-		7298281B195A551800506672 /* GivingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GivingViewController.h; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		03978292193436C00044B94A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0397829B193436C00044B94A /* CoreGraphics.framework in Frameworks */,
-				0397829D193436C00044B94A /* UIKit.framework in Frameworks */,
-				03978299193436C00044B94A /* Foundation.framework in Frameworks */,
-				3C2D91EDA4574EAB8CB36827 /* libPods-Unity Today.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		039782B6193436C00044B94A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				039782BB193436C00044B94A /* XCTest.framework in Frameworks */,
-				039782BD193436C00044B94A /* UIKit.framework in Frameworks */,
-				039782BC193436C00044B94A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		030007A11AD1FFB600A05F79 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				7298281B195A551800506672 /* GivingViewController.h */,
-				7298281A195A551800506672 /* GivingViewController.m */,
-				039782AD193436C00044B94A /* MasterViewController.h */,
-				039782AE193436C00044B94A /* MasterViewController.m */,
-				039782B0193436C00044B94A /* DetailViewController.h */,
-				039782B1193436C00044B94A /* DetailViewController.m */,
-			);
-			name = Controllers;
-			sourceTree = "<group>";
-		};
-		0397828C193436C00044B94A = {
-			isa = PBXGroup;
-			children = (
-				0397829E193436C00044B94A /* Unity Today */,
-				039782C0193436C00044B94A /* Unity TodayTests */,
-				03978297193436C00044B94A /* Frameworks */,
-				03978296193436C00044B94A /* Products */,
-				1555F7D96D14438DBB4DB70C /* Pods-Unity Today.xcconfig */,
-			);
-			sourceTree = "<group>";
-		};
-		03978296193436C00044B94A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				03978295193436C00044B94A /* Unity Today.app */,
-				039782B9193436C00044B94A /* Unity TodayTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		03978297193436C00044B94A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				03978298193436C00044B94A /* Foundation.framework */,
-				0397829A193436C00044B94A /* CoreGraphics.framework */,
-				0397829C193436C00044B94A /* UIKit.framework */,
-				039782BA193436C00044B94A /* XCTest.framework */,
-				34FF300627A24AC49CD707FA /* libPods-Unity Today.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		0397829E193436C00044B94A /* Unity Today */ = {
-			isa = PBXGroup;
-			children = (
-				039782A7193436C00044B94A /* AppDelegate.h */,
-				039782A8193436C00044B94A /* AppDelegate.m */,
-				030007A11AD1FFB600A05F79 /* Controllers */,
-				039782AA193436C00044B94A /* Main.storyboard */,
-				039782B3193436C00044B94A /* Images.xcassets */,
-				0397829F193436C00044B94A /* Supporting Files */,
-			);
-			path = "Unity Today";
-			sourceTree = "<group>";
-		};
-		0397829F193436C00044B94A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				039782A0193436C00044B94A /* Unity Today-Info.plist */,
-				039782A1193436C00044B94A /* InfoPlist.strings */,
-				039782A4193436C00044B94A /* main.m */,
-				039782A6193436C00044B94A /* Unity Today-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		039782C0193436C00044B94A /* Unity TodayTests */ = {
-			isa = PBXGroup;
-			children = (
-				039782C6193436C00044B94A /* Unity_TodayTests.m */,
-				039782C1193436C00044B94A /* Supporting Files */,
-			);
-			path = "Unity TodayTests";
-			sourceTree = "<group>";
-		};
-		039782C1193436C00044B94A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				039782C2193436C00044B94A /* Unity TodayTests-Info.plist */,
-				039782C3193436C00044B94A /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		03978294193436C00044B94A /* Unity Today */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 039782CA193436C00044B94A /* Build configuration list for PBXNativeTarget "Unity Today" */;
-			buildPhases = (
-				10D22ACD56F14BF189BC5E06 /* Check Pods Manifest.lock */,
-				03978291193436C00044B94A /* Sources */,
-				03978292193436C00044B94A /* Frameworks */,
-				03978293193436C00044B94A /* Resources */,
-				BB7626103E4E40E5B795D391 /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Unity Today";
-			productName = "Unity Today";
-			productReference = 03978295193436C00044B94A /* Unity Today.app */;
-			productType = "com.apple.product-type.application";
-		};
-		039782B8193436C00044B94A /* Unity TodayTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 039782CD193436C00044B94A /* Build configuration list for PBXNativeTarget "Unity TodayTests" */;
-			buildPhases = (
-				039782B5193436C00044B94A /* Sources */,
-				039782B6193436C00044B94A /* Frameworks */,
-				039782B7193436C00044B94A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				039782BF193436C00044B94A /* PBXTargetDependency */,
-			);
-			name = "Unity TodayTests";
-			productName = "Unity TodayTests";
-			productReference = 039782B9193436C00044B94A /* Unity TodayTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		0397828D193436C00044B94A /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = "Erik Jordan";
-				TargetAttributes = {
-					03978294193436C00044B94A = {
-						DevelopmentTeam = UXCXL4U5R3;
-					};
-					039782B8193436C00044B94A = {
-						TestTargetID = 03978294193436C00044B94A;
-					};
-				};
-			};
-			buildConfigurationList = 03978290193436C00044B94A /* Build configuration list for PBXProject "Unity Today" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = 0397828C193436C00044B94A;
-			productRefGroup = 03978296193436C00044B94A /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				03978294193436C00044B94A /* Unity Today */,
-				039782B8193436C00044B94A /* Unity TodayTests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		03978293193436C00044B94A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				039782B4193436C00044B94A /* Images.xcassets in Resources */,
-				039782A3193436C00044B94A /* InfoPlist.strings in Resources */,
-				039782AC193436C00044B94A /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		039782B7193436C00044B94A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				039782C5193436C00044B94A /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		10D22ACD56F14BF189BC5E06 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		BB7626103E4E40E5B795D391 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-Unity Today-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		03978291193436C00044B94A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				039782A9193436C00044B94A /* AppDelegate.m in Sources */,
-				7298281C195A551800506672 /* GivingViewController.m in Sources */,
-				039782AF193436C00044B94A /* MasterViewController.m in Sources */,
-				039782A5193436C00044B94A /* main.m in Sources */,
-				039782B2193436C00044B94A /* DetailViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		039782B5193436C00044B94A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				039782C7193436C00044B94A /* Unity_TodayTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		039782BF193436C00044B94A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 03978294193436C00044B94A /* Unity Today */;
-			targetProxy = 039782BE193436C00044B94A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		039782A1193436C00044B94A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				039782A2193436C00044B94A /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		039782AA193436C00044B94A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				039782AB193436C00044B94A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		039782C3193436C00044B94A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				039782C4193436C00044B94A /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		039782C8193436C00044B94A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-			};
-			name = Debug;
-		};
-		039782C9193436C00044B94A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		039782CB193436C00044B94A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1555F7D96D14438DBB4DB70C /* Pods-Unity Today.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Unity Today/Unity Today-Prefix.pch";
-				INFOPLIST_FILE = "Unity Today/Unity Today-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		039782CC193436C00044B94A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1555F7D96D14438DBB4DB70C /* Pods-Unity Today.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Unity Today/Unity Today-Prefix.pch";
-				INFOPLIST_FILE = "Unity Today/Unity Today-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		039782CE193436C00044B94A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Unity Today.app/Unity Today";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Unity Today/Unity Today-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Unity TodayTests/Unity TodayTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		039782CF193436C00044B94A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Unity Today.app/Unity Today";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Unity Today/Unity Today-Prefix.pch";
-				INFOPLIST_FILE = "Unity TodayTests/Unity TodayTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		03978290193436C00044B94A /* Build configuration list for PBXProject "Unity Today" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				039782C8193436C00044B94A /* Debug */,
-				039782C9193436C00044B94A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		039782CA193436C00044B94A /* Build configuration list for PBXNativeTarget "Unity Today" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				039782CB193436C00044B94A /* Debug */,
-				039782CC193436C00044B94A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		039782CD193436C00044B94A /* Build configuration list for PBXNativeTarget "Unity TodayTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				039782CE193436C00044B94A /* Debug */,
-				039782CF193436C00044B94A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = 0397828D193436C00044B94A /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>030007A11AD1FFB600A05F79</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7298281B195A551800506672</string>
+				<string>7298281A195A551800506672</string>
+				<string>039782AD193436C00044B94A</string>
+				<string>039782AE193436C00044B94A</string>
+				<string>039782B0193436C00044B94A</string>
+				<string>039782B1193436C00044B94A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Controllers</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0397828C193436C00044B94A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0397829E193436C00044B94A</string>
+				<string>039782C0193436C00044B94A</string>
+				<string>03978297193436C00044B94A</string>
+				<string>03978296193436C00044B94A</string>
+				<string>97D9406E5148790050CE4AA2</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0397828D193436C00044B94A</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0510</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>Erik Jordan</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>03978294193436C00044B94A</key>
+					<dict>
+						<key>DevelopmentTeam</key>
+						<string>UXCXL4U5R3</string>
+					</dict>
+					<key>039782B8193436C00044B94A</key>
+					<dict>
+						<key>TestTargetID</key>
+						<string>03978294193436C00044B94A</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>03978290193436C00044B94A</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>0397828C193436C00044B94A</string>
+			<key>productRefGroup</key>
+			<string>03978296193436C00044B94A</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>03978294193436C00044B94A</string>
+				<string>039782B8193436C00044B94A</string>
+			</array>
+		</dict>
+		<key>03978290193436C00044B94A</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>039782C8193436C00044B94A</string>
+				<string>039782C9193436C00044B94A</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>03978291193436C00044B94A</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>039782A9193436C00044B94A</string>
+				<string>7298281C195A551800506672</string>
+				<string>039782AF193436C00044B94A</string>
+				<string>039782A5193436C00044B94A</string>
+				<string>039782B2193436C00044B94A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>03978292193436C00044B94A</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>0397829B193436C00044B94A</string>
+				<string>0397829D193436C00044B94A</string>
+				<string>03978299193436C00044B94A</string>
+				<string>3C2D91EDA4574EAB8CB36827</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>03978293193436C00044B94A</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>039782B4193436C00044B94A</string>
+				<string>039782A3193436C00044B94A</string>
+				<string>039782AC193436C00044B94A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>03978294193436C00044B94A</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>039782CA193436C00044B94A</string>
+			<key>buildPhases</key>
+			<array>
+				<string>10D22ACD56F14BF189BC5E06</string>
+				<string>03978291193436C00044B94A</string>
+				<string>03978292193436C00044B94A</string>
+				<string>03978293193436C00044B94A</string>
+				<string>BB7626103E4E40E5B795D391</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Unity Today</string>
+			<key>productName</key>
+			<string>Unity Today</string>
+			<key>productReference</key>
+			<string>03978295193436C00044B94A</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>03978295193436C00044B94A</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Unity Today.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>03978296193436C00044B94A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>03978295193436C00044B94A</string>
+				<string>039782B9193436C00044B94A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>03978297193436C00044B94A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>03978298193436C00044B94A</string>
+				<string>0397829A193436C00044B94A</string>
+				<string>0397829C193436C00044B94A</string>
+				<string>039782BA193436C00044B94A</string>
+				<string>34FF300627A24AC49CD707FA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>03978298193436C00044B94A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>03978299193436C00044B94A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>03978298193436C00044B94A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0397829A193436C00044B94A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreGraphics.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/CoreGraphics.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>0397829B193436C00044B94A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0397829A193436C00044B94A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0397829C193436C00044B94A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>UIKit.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/UIKit.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>0397829D193436C00044B94A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0397829C193436C00044B94A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0397829E193436C00044B94A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>039782A7193436C00044B94A</string>
+				<string>039782A8193436C00044B94A</string>
+				<string>030007A11AD1FFB600A05F79</string>
+				<string>039782AA193436C00044B94A</string>
+				<string>039782B3193436C00044B94A</string>
+				<string>0397829F193436C00044B94A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Unity Today</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0397829F193436C00044B94A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>039782A0193436C00044B94A</string>
+				<string>039782A1193436C00044B94A</string>
+				<string>039782A4193436C00044B94A</string>
+				<string>039782A6193436C00044B94A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>039782A0193436C00044B94A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Unity Today-Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>039782A1193436C00044B94A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>039782A2193436C00044B94A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>039782A2193436C00044B94A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.strings</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>039782A3193436C00044B94A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>039782A1193436C00044B94A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>039782A4193436C00044B94A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>main.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>039782A5193436C00044B94A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>039782A4193436C00044B94A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>039782A6193436C00044B94A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Unity Today-Prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>039782A7193436C00044B94A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>039782A8193436C00044B94A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>AppDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>039782A9193436C00044B94A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>039782A8193436C00044B94A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>039782AA193436C00044B94A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>039782AB193436C00044B94A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>039782AB193436C00044B94A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>039782AC193436C00044B94A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>039782AA193436C00044B94A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>039782AD193436C00044B94A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>MasterViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>039782AE193436C00044B94A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>MasterViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>039782AF193436C00044B94A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>039782AE193436C00044B94A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>039782B0193436C00044B94A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>DetailViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>039782B1193436C00044B94A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>DetailViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>039782B2193436C00044B94A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>039782B1193436C00044B94A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>039782B3193436C00044B94A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Images.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>039782B4193436C00044B94A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>039782B3193436C00044B94A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>039782B5193436C00044B94A</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>039782C7193436C00044B94A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>039782B6193436C00044B94A</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>039782BB193436C00044B94A</string>
+				<string>039782BD193436C00044B94A</string>
+				<string>039782BC193436C00044B94A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>039782B7193436C00044B94A</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>039782C5193436C00044B94A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>039782B8193436C00044B94A</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>039782CD193436C00044B94A</string>
+			<key>buildPhases</key>
+			<array>
+				<string>039782B5193436C00044B94A</string>
+				<string>039782B6193436C00044B94A</string>
+				<string>039782B7193436C00044B94A</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>039782BF193436C00044B94A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Unity TodayTests</string>
+			<key>productName</key>
+			<string>Unity TodayTests</string>
+			<key>productReference</key>
+			<string>039782B9193436C00044B94A</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>039782B9193436C00044B94A</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Unity TodayTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>039782BA193436C00044B94A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>XCTest.framework</string>
+			<key>path</key>
+			<string>Library/Frameworks/XCTest.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>039782BB193436C00044B94A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>039782BA193436C00044B94A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>039782BC193436C00044B94A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>03978298193436C00044B94A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>039782BD193436C00044B94A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0397829C193436C00044B94A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>039782BE193436C00044B94A</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>0397828D193436C00044B94A</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>03978294193436C00044B94A</string>
+			<key>remoteInfo</key>
+			<string>Unity Today</string>
+		</dict>
+		<key>039782BF193436C00044B94A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>03978294193436C00044B94A</string>
+			<key>targetProxy</key>
+			<string>039782BE193436C00044B94A</string>
+		</dict>
+		<key>039782C0193436C00044B94A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>039782C6193436C00044B94A</string>
+				<string>039782C1193436C00044B94A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Unity TodayTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>039782C1193436C00044B94A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>039782C2193436C00044B94A</string>
+				<string>039782C3193436C00044B94A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>039782C2193436C00044B94A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Unity TodayTests-Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>039782C3193436C00044B94A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>039782C4193436C00044B94A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>039782C4193436C00044B94A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.strings</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>039782C5193436C00044B94A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>039782C3193436C00044B94A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>039782C6193436C00044B94A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Unity_TodayTests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>039782C7193436C00044B94A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>039782C6193436C00044B94A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>039782C8193436C00044B94A</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>039782C9193436C00044B94A</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>039782CA193436C00044B94A</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>039782CB193436C00044B94A</string>
+				<string>039782CC193436C00044B94A</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>039782CB193436C00044B94A</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>1F65CCFC8A0659F4E8EF8016</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
+				<string>LaunchImage</string>
+				<key>CODE_SIGN_IDENTITY</key>
+				<string>iPhone Developer</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Unity Today/Unity Today-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Unity Today/Unity Today-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>039782CC193436C00044B94A</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>8115DE113095B4669296E0C2</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
+				<string>LaunchImage</string>
+				<key>CODE_SIGN_IDENTITY</key>
+				<string>iPhone Developer</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Unity Today/Unity Today-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Unity Today/Unity Today-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>039782CD193436C00044B94A</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>039782CE193436C00044B94A</string>
+				<string>039782CF193436C00044B94A</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>039782CE193436C00044B94A</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(BUILT_PRODUCTS_DIR)/Unity Today.app/Unity Today</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
+				</array>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Unity Today/Unity Today-Prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>INFOPLIST_FILE</key>
+				<string>Unity TodayTests/Unity TodayTests-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUNDLE_LOADER)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>xctest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>039782CF193436C00044B94A</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(BUILT_PRODUCTS_DIR)/Unity Today.app/Unity Today</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
+				</array>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Unity Today/Unity Today-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Unity TodayTests/Unity TodayTests-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUNDLE_LOADER)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>xctest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>10D22ACD56F14BF189BC5E06</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>1F65CCFC8A0659F4E8EF8016</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-Unity Today.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-Unity Today/Pods-Unity Today.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>34FF300627A24AC49CD707FA</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-Unity Today.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>3C2D91EDA4574EAB8CB36827</key>
+		<dict>
+			<key>fileRef</key>
+			<string>34FF300627A24AC49CD707FA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7298281A195A551800506672</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>GivingViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7298281B195A551800506672</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>GivingViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7298281C195A551800506672</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7298281A195A551800506672</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8115DE113095B4669296E0C2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-Unity Today.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-Unity Today/Pods-Unity Today.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>97D9406E5148790050CE4AA2</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>1F65CCFC8A0659F4E8EF8016</string>
+				<string>8115DE113095B4669296E0C2</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BB7626103E4E40E5B795D391</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-Unity Today/Pods-Unity Today-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>0397828D193436C00044B94A</string>
+</dict>
+</plist>
